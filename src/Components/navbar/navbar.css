@@ -1,0 +1,22 @@
+.menu ul li{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+}
+li::after{
+    content: "";
+    position: absolute;
+    background: #64ffda;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    color: #64ffda;
+}
+li:hover::after{
+    width: 100%;
+}
+
