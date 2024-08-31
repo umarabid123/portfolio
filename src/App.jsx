@@ -3,7 +3,7 @@ import "./App.css";
 import profile from "./assets/Images/profile.jpg";
 import About from "./Components/about/About";
 import Button from "./Components/button/Button";
-import Card from "./Components/card/card";
+import Card from "./Components/card/Card";
 import Contact from "./Components/contact/Contact";
 import Navbar from "./Components/navbar/Navbar";
 import Project_Card from "./Components/projectCard/Project_Card";
