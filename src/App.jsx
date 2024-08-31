@@ -12,35 +12,35 @@ import { SparklesCore } from "./Components/sparkles/Sparkles";
 
 const skillData = [
   {
-    img: "/src/assets/Images/html.png",
+    img: "src/assets/Images/html.png",
     text: "HTML",
   },
   {
-    img: "/src/assets/Images/css.png",
+    img: "src/assets/Images/css.png",
     text: "CSS",
   },
   {
-    img: "/src/assets/Images/tailwind.png",
+    img: "src/assets/Images/tailwind.png",
     text: "Tailwind",
   },
   {
-    img: "/src/assets/Images/bootstrape.png",
+    img: "src/assets/Images/bootstrape.png",
     text: "Bootstrap",
   },
   {
-    img: "/src/assets/Images/Js.png",
+    img: "src/assets/Images/Js.png",
     text: "JavaScript",
   },
   {
-    img: "/src/assets/Images/React.png",
+    img: "src/assets/Images/React.png",
     text: "React JS",
   },
   {
-    img: "/src/assets/Images/next.jpg",
+    img: "src/assets/Images/next.jpg",
     text: "Next JS",
   },
   {
-    img: "/src/assets/Images/github.png",
+    img: "src/assets/Images/github.png",
     text: "GitHub",
   },
 ];
