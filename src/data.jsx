@@ -1,6 +1,8 @@
+
+import hanger from './assets/Images/hanger.png'
 export const data = [
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
@@ -9,7 +11,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
@@ -18,7 +20,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
@@ -27,7 +29,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
@@ -36,7 +38,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
@@ -45,7 +47,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: "src/assets/Images/hanger.png",
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
