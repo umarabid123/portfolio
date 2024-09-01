@@ -148,11 +148,11 @@ useEffect(() =>{
         </div>
 
         {/* Skills Section  */}
-        <div className="skills pb-10 pt-36 px-6">
-          <h1 className="text-white text-center text-5xl font-semibold" data-aos ="fade-down">
+        <div className="skills pb-10 pt-36 px-6 " data-aos ="fade-down">
+          <h1 className="text-white text-center text-5xl font-semibold" >
             Skills
           </h1>
-          <p className="text-gray-300 text-xl text-center pt-4" data-aos ="fade-down">
+          <p className="text-gray-300 text-xl text-center pt-4">
             Here are some of my skills on which I have been working
           </p>
           <div className="cards flex gap-6 flex-wrap justify-center pt-10">
