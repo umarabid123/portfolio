@@ -38,7 +38,7 @@ export const data = [
         "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and",
     },
     {
-      img: hanger
+      img: hanger,
       tecnholgyF: "React JS",
       tecnholgy: "Tailwind CSS",
       name: "Hanger Direct",
