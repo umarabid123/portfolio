@@ -1,8 +1,13 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+  useEffect(() =>{
+    Aos.init({duration: 2000})
+  }, [])
+  
   return (
-    <div>
+    <div data-aos ="fade-left">
       <h1 className="text-white text-center text-5xl font-semibold">About</h1>
       <p className="text-gray-400 text-md sm:text-xl py-10">
         Hello! I'm <span className="text-[#64ffda]">Umar</span>, a passionate frontend developer with a knack for

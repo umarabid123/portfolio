@@ -9,6 +9,9 @@ import Navbar from "./Components/navbar/Navbar";
 import Project_Card from "./Components/projectCard/Project_Card";
 import { data } from "./data";
 import { SparklesCore } from "./Components/sparkles/Sparkles";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const skillData = [
   {
@@ -50,8 +53,13 @@ function App() {
     words: ["Frontend Developer", "Web Designer"],
     loop: {},
   });
+
+useEffect(() =>{
+  Aos.init({duration: 2000})
+}, [])
+
   return (
-    <div className="bg-[#0a192f] h-full lg:px-6 xl:px-0">
+    <div className="bg-[#0a192f] h-full lg:px-6 xl:px-0 overflow-hidden" >
 
 
 <div className="w-full absolute inset-0 h-full">
@@ -67,7 +75,7 @@ function App() {
       </div>
       <div className="container xl:max-w-6xl mx-auto relative z-20">
         {" "}
-        <Navbar />
+        <Navbar data-aos ='fade-up' />
         {/* Hero Section */}
         <div className="main-hero lg:mt-14 flex flex-col-reverse lg:flex-row justify-between items-center px-6 z-20">
           {" "}
@@ -141,10 +149,10 @@ function App() {
 
         {/* Skills Section  */}
         <div className="skills pb-10 pt-36 px-6">
-          <h1 className="text-white text-center text-5xl font-semibold">
+          <h1 className="text-white text-center text-5xl font-semibold" data-aos ="fade-down">
             Skills
           </h1>
-          <p className="text-gray-300 text-xl text-center pt-4">
+          <p className="text-gray-300 text-xl text-center pt-4" data-aos ="fade-down">
             Here are some of my skills on which I have been working
           </p>
           <div className="cards flex gap-6 flex-wrap justify-center pt-10">
@@ -156,10 +164,10 @@ function App() {
 
         {/* Project  Section  */}
         <div className="project pt-36">
-          <h1 className="text-white text-center text-5xl font-semibold">
+          <h1 className="text-white text-center text-5xl font-semibold" data-aos ="fade-left">
             Project
           </h1>
-          <p className="text-gray-300 text-xl text-center py-10">
+          <p className="text-gray-300 text-xl text-center py-10" data-aos ="fade-left">
             Here are some of my skills on which I have been working
           </p>
           <div className="flex justify-between flex-wrap">
@@ -173,6 +181,7 @@ function App() {
                   name={item.name}
                   date={item.date}
                   paragraph={item.paragraph}
+                  
                 />
               );
             })}

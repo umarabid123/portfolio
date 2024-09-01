@@ -10,7 +10,7 @@ const Navbar = () => {
     setOpen(!open);
   }
   return (
-    <div className="relative">
+    <div className="relative main-her">
       <div className="navbar flex justify-between items-center  top-0 h-28 sticky px-6 sm:px-8 lg:px-4 py-1">
         <h1 className="text-[1.5rem] font-bold text-white flex items-center">
           <span className={`${logoDesign}`}>&lt;</span>Muhammad

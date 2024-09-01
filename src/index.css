@@ -13,3 +13,32 @@ body{
     font-family: Poppins, sans-serif;
     background-color: rgb(9, 9, 23);
 }
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.main-hero{
+    animation: fade-up 1.5s;
+}
+.main-her{
+    animation: fade-down 1.5s;
+}
