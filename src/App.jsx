@@ -205,6 +205,10 @@ useEffect(() =>{
         <div className="Contact">
           <Contact />
         </div>
+        <div className="last-text py-20">
+          <p className="text-[#64ffda] text-xl text-center font-medium">Muhammad Umar</p>
+          <p className="text-[#fff] text-center font-medium">© 2024 Muhammad Umar. All rights reserved.</p> 
+        </div>
       </div>
     </div>
   );
