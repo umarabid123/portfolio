@@ -1,6 +1,14 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import "./App.css";
 import profile from "./assets/Images/profile.jpg";
+import html from './assets/Images/html.png'
+import css from './assets/Images/css.png'
+import tailwind from './assets/Images/tailwind.png'
+import bootstrap from './assets/Images/bootstrape.png'
+import react from './assets/Images/React.png'
+import next from './assets/Images/next.jpg'
+import git from './assets/Images/github.png'
+import javascript from './assets/Images/JS.png'
 import About from "./Components/about/About";
 import Button from "./Components/button/Button";
 import Card from "./Components/card/Card";
@@ -15,35 +23,35 @@ import { useEffect } from "react";
 
 const skillData = [
   {
-    img: "/src/assets/Images/html.png",
+    img: html,
     text: "HTML",
   },
   {
-    img: "/src/assets/Images/css.png",
+    img: css,
     text: "CSS",
   },
   {
-    img: "/src/assets/Images/tailwind.png",
+    img: tailwind,
     text: "Tailwind",
   },
   {
-    img: "/src/assets/Images/bootstrape.png",
+    img: bootstrap,
     text: "Bootstrap",
   },
   {
-    img: "/src/assets/Images/Js.png",
+    img: javascript,
     text: "JavaScript",
   },
   {
-    img: "/src/assets/Images/React.png",
+    img: react,
     text: "React JS",
   },
   {
-    img: "/src/assets/Images/next.jpg",
+    img: next,
     text: "Next JS",
   },
   {
-    img: "/src/assets/Images/github.png",
+    img: git,
     text: "GitHub",
   },
 ];
