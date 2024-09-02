@@ -105,7 +105,7 @@ useEffect(() =>{
               is both functional and aesthetically pleasing.
             </p>
 
-            <div className="icons flex items-center gap-4 mt-6">
+            <div className="icons flex justify-center sm:justify-start items-center gap-4 mt-6">
               <a href="https://www.facebook.com/profile.php?id=100043144280043">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
