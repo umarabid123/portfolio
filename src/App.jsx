@@ -156,7 +156,7 @@ useEffect(() =>{
         </div>
 
         {/* Skills Section  */}
-        <div className="skills pb-10 pt-36 px-6 " data-aos ="fade-down">
+        <div className="skills pb-10 pt-36 px-6 " data-aos ="fade-up">
           <h1 className="text-white text-center text-5xl font-semibold" >
             Skills
           </h1>

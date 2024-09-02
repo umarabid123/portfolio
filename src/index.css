@@ -37,8 +37,8 @@ body{
 }
 
 .main-hero{
-    animation: fade-up 1.5s;
+    animation: fade-up 2s;
 }
 .main-her{
-    animation: fade-down 1.5s;
+    animation: fade-down 2s;
 }
