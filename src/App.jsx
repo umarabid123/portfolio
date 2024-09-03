@@ -102,7 +102,7 @@ function App() {
               into engaging and interactive web experiences. My approach to
               development emphasizes clean code, efficient performance, and
               modern design principles, ensuring that every interface I create
-              is both functional and aesthetically pleasing.
+              is both functional and aesthetically pleasi.
             </p>
 
             {/* icons */}
