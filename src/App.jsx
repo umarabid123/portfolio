@@ -54,7 +54,7 @@ const skillData = [
     img: git,
     text: "GitHub",
   },
-];
+]
 
 function App() {
   const [text] = useTypewriter({
