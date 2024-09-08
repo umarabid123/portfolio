@@ -24,7 +24,7 @@ import { useEffect } from "react";
 const skillData = [
   {
     img: html,
-    text: "HTML",
+    text: "HTML"
   },
   {
     img: css,
